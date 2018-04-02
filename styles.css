@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 34px;
+    margin-top: 60px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color:crimson;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color:white;
+    background-color:crimson;
+}
+
+.title-section:hover .title-header{
+  transform: scale(1.2);
+  background-color: #FC814A;
+        }
+
+.title-header {
+    font-size: 60px;
+    color:white;
+    background-color: crimson;
+    transition: all 1.1s; background 3s;
+}
+
+.title-header2{
+    transition: all 1.1s; background 3s;  
+    font-size: 24px;
+        }
+
+.title-header3{
+    transition: all 1.1s; background 3s; 
+    font-size: 16px;
+        }
+
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+a:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.intro {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color:crimson;
+}
+
+p {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Crimson Text', serif;
+}
+
+.media {
+    padding: 1%;
+}
+
+.media:hover {
+    transform: scale(1.1);
+    background-color: crimson;
+}
+
+.caption {
+    font-size: 16 px;
+}
+
+img {
+    width: 550px;
+    height: auto;
+}
+
+h1, h2, h3, p, .media, .caption, img {
+    width: 76%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-section {
+    background-image:url(images/header.png);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.title-nav a {
+    color: gray;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.title-header {
+    font-size: 60px;
+    color:white;
+    background-color: crimson;
+}
+
+.title-header2 {
+    font-size: 24px;
+}
+
+.title-header3 {
+    font-size: 16px;
+}
+
+.pullquote-section {
+    padding: 5%; 
+    height: 25vh;
+    animation: pullquote 3s 2s infinite alternate; 
+}
+
+@keyframes pullquote {
+    0% {
+        background-color: coral;
+    }
+    
+    25% {
+        background-color:crimson;
+    }
+    
+    50% {
+        background-color:forestgreen
+    }
+    
+    75% {
+
+        background-color:cornflowerblue;
+    }
+    
+    100% {
+        background-color:deeppink;
+    }
+}
+
+.pullquote-section-text {
+    font-size: 36px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: crimson;
+    text-align: center;
+    animation: text 3s 2s infinite alternate;
+}
+
+@keyframes text {
+    0% {
+        color: deeppink;
+    }
+    
+    25% {
+        color:cornflowerblue;
+    }
+    
+    50% {
+        color:forestgreen
+    }
+    
+    75% {
+
+        color:crimson;
+    }
+    
+    100% {
+        color: coral;
+    }
+}
