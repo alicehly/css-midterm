@@ -93,7 +93,7 @@ h1, h2, h3, p, .media, .caption, img {
 }
 
 .title-section {
-    background-image:url(images/header.png);
+    background-image:url(header.png);
     padding-top: 10px;
     padding-bottom: 40px;
 }
